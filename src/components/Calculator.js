@@ -9,17 +9,18 @@ class Calculator extends Component {
       next: null,
       operation: null,
     };
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick = (event) => {
+  handleClick(event) {
     const result = calculate(this.state, event.target.innerText);
     this.setState(result);
-  };
+  }
 
   render() {
     const { total, next, operation } = this.state;
     return (
-      <div className="w-96 mx-auto divide-x divide-y divide-zinc-400 mt-12 md:flex grid grid-cols-4 rounded border border-gray-300">
+      <div className="w-96 mx-auto divide-x divide-y divide-zinc-400 mt-12 grid grid-cols-4 rounded border border-gray-300">
         <div className="result col-span-4 py-4 bg-[#858693] text-2xl text-white text-right pr-2">
           {total}
           {operation}
