@@ -24,3 +24,15 @@ body {
   );
   height: 100vh;
 }
+
+.calculatorPage {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 500px) {
+  .calculatorPage {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}

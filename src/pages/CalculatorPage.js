@@ -6,8 +6,10 @@ export default function CalculatorPage() {
   return (
     <div>
       <Header />
-      <h2>Lets do some Math!</h2>
-      <div>
+      <div className="calculatorPage">
+        <h2 className="text-4xl text-white font-semibold my-12 px-2 sm:ml-6">
+          Lets do some Math!
+        </h2>
         <Calculator />
       </div>
     </div>

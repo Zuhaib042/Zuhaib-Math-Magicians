@@ -14,8 +14,8 @@ const Calculator = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto">
-      <div className="w-full px-4 divide-x divide-y divide-zinc-400 mt-12 grid grid-cols-4">
+    <div className="w-96 max-w-sm">
+      <div className="px-4 divide-x divide-y divide-zinc-400 sm:mt-12 grid grid-cols-4">
         <div className="result col-span-4 py-4 bg-[#858693] text-2xl text-white text-right pr-2">
           {state.total}
           {state.operation}
