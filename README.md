@@ -9,7 +9,7 @@
 - Major languages :-
   Html, Css, JavaScript , React.
 - Frameworks :-
-  none
+  tailwind css
 - Technologies used :-
   webpack, git, github.
 
@@ -27,8 +27,11 @@ To get a local copy up and running follow these simple example steps.
 - a code editor (like Atom, VScode...).
 
 ### Install
+First run following command to clone project to your local machine
 
-run following to install dependencies : `npm install`
+`git clone https://github.com/Zuhaib042/Zuhaib-Math-Magicians.git`
+
+the run following to install dependencies : `npm install`
 
 ### Build and Run
 
