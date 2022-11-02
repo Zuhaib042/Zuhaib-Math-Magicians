@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render header correctly 1`] = `
+<a
+  href="/"
+>
+  Home
+</a>
+`;
+
+exports[`Header should render header correctly 2`] = `
+<a
+  href="/calculator"
+>
+  Calculator
+</a>
+`;

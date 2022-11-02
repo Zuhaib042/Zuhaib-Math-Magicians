@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Calculator UI should render 0 when "AC" button is clicked 1`] = `
+<button
+  class="py-4 bg-[#e0e0e0]"
+  type="button"
+>
+  1
+</button>
+`;
+
+exports[`Testing Calculator UI should render 0 when "AC" button is clicked 2`] = `
+<div
+  class="result col-span-4 py-4 bg-[#858693] text-2xl text-white text-right pr-2"
+  data-testid="total"
+>
+  0
+</div>
+`;
