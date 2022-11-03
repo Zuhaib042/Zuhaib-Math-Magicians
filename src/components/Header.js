@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -13,13 +14,13 @@ export default function Header() {
           </div>
           <ul className="sm:flex mr-4 text-white text-lg">
             <li className="px-2">
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li className="px-2">
-              <a href="/calculator">Calculator</a>
+              <Link to="/calculator">Calculator</Link>
             </li>
             <li className="px-2">
-              <a href="/quote">Quote</a>
+              <Link to="/quote">Quote</Link>
             </li>
           </ul>
         </nav>
